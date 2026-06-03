@@ -1,0 +1,18 @@
+[general]
+name=Network-Based Hierarchical Feature Augmentation
+qgisMinimumVersion=3.16
+description=Augments road network features by aggregating attribute values from hierarchical BFS neighbourhood levels (L1, L2, ..., LN). Each field can have its own neighbourhood depth and aggregation method (mean, sum, min, max, median, std). L1_Count ... LN_Count columns are generated automatically.
+version=1.0.0
+author=Müslüm Hacar
+email=mhacar@yildiz.edu.tr, muslumhacar@gmail.com
+about=Implements the Network-Based Hierarchical Feature Augmentation method (Hacar, Altafini & Cutini, ISPRS IJGI 2024, doi:10.3390/ijgi13120456). Select any number of numeric fields and configure per-field neighbourhood depth (N) and aggregation method independently. Available in both the Processing Toolbox (automatable) and as a dockable panel (interactive).
+tracker=https://github.com/hacarm/network-hierarchical-augmentation/issues
+repository=https://github.com/hacarm/network-hierarchical-augmentation
+tags=network analysis, road network, feature augmentation, BFS, machine learning, OpenStreetMap, centrality, hierarchical
+homepage=https://github.com/hacarm/network-hierarchical-augmentation
+category=Analysis
+icon=icon.svg
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=True
